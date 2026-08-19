@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
-            <body className={`${poppins.variable} min-h-full flex flex-col`}>
+            <body className={`${poppins.variable} font-sans min-h-full flex flex-col`}>
                 <TooltipProvider>
                     <SidebarLayout>{children}</SidebarLayout>
                 </TooltipProvider>
