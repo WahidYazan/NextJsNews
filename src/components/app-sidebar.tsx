@@ -9,10 +9,12 @@ import {
     GalleryVerticalEnd,
     History,
     Home,
+    LogIn,
     Map,
     PieChart,
     Settings2,
     SquareTerminal,
+    UserPlus,
 } from "lucide-react";
 import * as React from "react";
 
@@ -51,6 +53,16 @@ const data = {
             title: "Beranda",
             url: "/beranda",
             icon: Home,
+        },
+        {
+            title: "Login",
+            url: "/auth/login",
+            icon: LogIn,
+        },
+        {
+            title: "Register",
+            url: "/auth/register",
+            icon: UserPlus,
         },
         {
             title: "Playground",
