@@ -28,7 +28,7 @@ import { Sidebar, SidebarContent, SidebarFooter, SidebarHeader, SidebarRail } fr
 const data = {
     user: {
         name: "HIDAYAT NUR WAHID",
-        email: "hidayatnurwahid@example.com",
+        email: "HidayatNurWahid@xi.c",
         avatar: "",
     },
     teams: [
@@ -55,16 +55,6 @@ const data = {
             icon: Home,
         },
         {
-            title: "Login",
-            url: "/auth/login",
-            icon: LogIn,
-        },
-        {
-            title: "Register",
-            url: "/auth/register",
-            icon: UserPlus,
-        },
-        {
             title: "Playground",
             url: "#",
             icon: SquareTerminal,
@@ -82,6 +72,24 @@ const data = {
                     title: "Settings",
                     url: "#",
                 },
+            ],
+        },
+        {
+            title: "Auth Pages",
+            url: "#",
+            icon: SquareTerminal,
+            isActive: true,
+            items: [
+                    {
+            title: "Login",
+            url: "/auth/login",
+            icon: LogIn,
+        },
+        {
+            title: "Register",
+            url: "/auth/register",
+            icon: UserPlus,
+        },
             ],
         },
         {
